@@ -1,0 +1,287 @@
+header
+{
+    .menu-principal
+    {
+        height: 80px;
+        background-color: #FFF;
+        overflow: hidden;
+        /*position: fixed;*/
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+        @include media-breakpoint-down(sm) {
+            
+        }
+        
+        input[type="text"]{
+            position: absolute;
+            bottom: 26px;
+            right: 40px;
+            width: 18%;
+            border: 2px solid #3e8dce;
+            border-radius: 20px;
+            outline: none;
+            padding-left: 10px;
+
+        }
+
+        input[type="submit"]{
+            position: absolute;
+            top: 24px;
+            right: 5px;
+            width: 30px;
+            text-indent: -9999px;
+            height: 30px;
+            border: none;
+            background: url("../img/lupa-eu-dou-conta.svg") no-repeat center center;
+
+        }
+
+        .screen-reader-text {
+            display: none;
+        }
+        .icone-busca
+        {
+            background-color: transparent;
+            border: 0;
+            position: absolute;
+            top: 29px;
+            outline: none;
+            right: 5px;
+        }
+        .container-header 
+        {
+            max-width: 1240px;
+            @include media-breakpoint-down(xl) {
+                width: 100%; 
+            }
+        }
+        .logo 
+        {
+            margin-top: 14px;
+            width: 80px;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 30px;
+                width: 180px;
+            }
+        }
+        nav 
+        {
+            width: 100%;
+            height: 80px;
+            
+            a 
+            {
+                height: 80px;
+                display: table;
+                float: left;
+                text-decoration: none;
+                vertical-align: middle;
+                position: relative;
+
+                &:nth-child(1) {
+                    width: 12%;
+                }
+                &:nth-child(2) {
+                    width: 10%;
+                }
+                &:nth-child(3) {
+                    width: 10%;
+                }
+                &:nth-child(4) {
+                    width: 8%;
+                }
+                &:nth-child(5) {
+                    width: 10%;
+                    float: right;
+                }
+                
+                &:after {
+                    content: "";
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 2px;
+                    opacity: 0;
+                    transition: all .2s;
+                    background-color: black;
+                }
+
+                &:hover {
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+                h3
+                {
+                    color: #000;
+                    font-size: 15px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                    margin-bottom: 0px;
+
+                    &:hover {
+                        color: #000;
+                    }
+
+                }
+            }
+            
+        }
+    }
+    .logo-wrapper 
+    {
+        text-align: center;
+    }
+}
+.menu-mobile
+{
+    width: 90%;
+    position: absolute;
+    right: 0;
+    background-color: #008fd5;
+    padding-top: 30px;
+    display: none;
+    z-index: 999;
+    height: auto;
+    
+    .bigger
+    {
+
+        .search-mobile {
+            text-decoration: none;
+            display: block;
+            margin-bottom: 20px;
+            margin-left: 15px;
+            height: 35px;
+
+            
+
+            h2 {
+                display: inline-block;
+                margin-left: 15px;
+                font-size: 18px;
+                color: #fff;
+                line-height: 40px;
+                font-weight: normal;
+                line-height: 40px;
+            }
+        }
+
+        .search-wrapper-mobile {
+
+            .screen-reader-text {
+                display: none;
+            }
+
+            input[type="submit"] {
+                display: none;
+                position: absolute;
+                bottom: 20px;
+                right: 15px;
+                width: 30px;
+                text-indent: -9999px;
+                height: 30px;
+                border: none;
+                background: url("../img/lupa-buscar-mobile.png") no-repeat center center;
+            }
+
+            input[type="text"] {
+                display: none;
+                border: 2px solid #3e8dce;
+                border-radius: 20px;
+                outline: none;
+                margin-left: 15px;
+                margin-bottom: 20px;
+                width: 75%;
+                padding-left: 10px;
+            }
+        }
+        a 
+        {
+            text-decoration: none;
+            display: block;
+            margin-bottom: 20px;
+            height: 35px;            
+           
+            h2 
+            {
+                margin-left: 20px;
+                font-size: 18px;
+                color: #fff;
+                font-weight: normal;
+                padding-left: 30px;
+            }
+        }
+    }
+    .smaller
+    {
+        a 
+        {
+            text-decoration: none;
+            display: block;
+            padding-left: 30px;
+            padding-right: 30px;
+            h2 
+            {
+                margin: 0;
+                font-size: 14px;
+                color: #6A6A6A;
+                padding-bottom: 12px;
+                font-weight: normal;
+                padding-top: 12px;
+                border-top: solid 1px #6A6A6A;
+            }
+        }
+    }
+}
+
+// styling of hamburger menu
+.hamburger-menu {
+    display: inline-block;
+    height: 80px;
+    padding: 25px;
+    transition: all 0.3s ease-in-out;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  
+    .menu-item {
+      background: #fff;
+      display: block;
+      height: 3px;
+      margin: 0 0 10px;
+      transition: all 0.3s ease-in-out;
+      width: 40px;
+    }
+      
+    &.open {
+  
+      .menu-item {
+        margin: 0 0 5px;
+  
+        &:first-child {
+          transform: rotate(45deg);
+          transform-origin: 10px;
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+          transform-origin: 8px;
+        }
+      }
+    }
+    }
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}

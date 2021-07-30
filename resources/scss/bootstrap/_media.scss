@@ -1,0 +1,12 @@
+.media {
+  display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}

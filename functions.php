@@ -1,0 +1,9 @@
+<?php
+include("config/add-widgets.php");
+include("config/disable-updates.php"); 
+include("config/enqueue-scripts.php");
+include("config/custom-search-form.php");
+include("config/options-page.php");
+include("config/register-menus.php");
+include("config/utils.php");
+?>

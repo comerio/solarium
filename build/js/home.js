@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(".banner-home").slick({dots:!0,arrows:!0,slidesToShow:1,infinite:!0,centerMode:!1}),jQuery(".menu-principal nav a").click(function(e){e.preventDefault;var n=$(this).attr("href"),r=$(n).offset().top,i=$(".menu-principal").innerHeight();jQuery("html, body").animate({scrollTop:r-i},700)})});

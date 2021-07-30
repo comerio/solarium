@@ -1,0 +1,61 @@
+.footer {
+    .rodape-padding {
+        padding: 20px 0;
+    }
+    .social-media {
+        .icon-social-media {
+            display: flex;
+
+            .fb-icon {
+                margin-right: 20px;
+            }
+
+            .ig-icon {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .bottom-footer {
+        height: 60px;
+        background-color: black;
+        width: 100%;
+        position: relative;
+        .rights {
+            color: #fff;
+            height: 100%;
+
+            h3 {
+                font-weight: 200;
+                font-size: 12px;
+                padding: 20px 40px;
+                margin: 0;
+                letter-spacing: 1px;
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+        .dev {
+            position: absolute;
+            right: 10px;
+            top: 26px;
+            cursor: default;
+
+            h4 {
+                color: #000;
+                font-size: 8px;
+                font-weight: 300;
+                letter-spacing: 3px;
+
+                &:hover {
+                    color: #fff;
+                    transition: 10s;
+                }
+            }
+        }
+    }
+}

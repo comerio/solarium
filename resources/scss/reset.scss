@@ -1,0 +1,30 @@
+* {
+    font-family: 'Arial';
+}
+.main
+{
+    min-height: 500px;
+    position: relative;
+
+    .banner-home {
+        position: relative;
+
+        .slick-slide {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+img
+{
+    object-fit: contain !important;
+
+}
+
+.home {
+    .main {
+        background-color: #f3f3f3;
+        overflow: hidden;
+    }
+}

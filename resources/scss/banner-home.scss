@@ -1,0 +1,57 @@
+.banner-home {
+    .slick-arrow {
+        z-index: 99;
+
+        &.slick-next {
+            right: 100px;
+
+            &:before {
+                content: "";
+                background: url("../img/seta.png") no-repeat center center;
+                width: 15px;
+                height: 32px;
+                position: absolute;
+            }
+        }
+
+        &.slick-prev {
+            left: 100px;
+
+            &:before {
+                content: "";
+                background: url("../img/seta.png") no-repeat center center;
+                width: 15px;
+                height: 32px;
+                position: absolute;
+                transform: scaleX(-1);
+            }
+        }
+    }
+    .slick-dots {
+        bottom: 25px;
+
+        button {
+            &:before {
+                width: 19px;
+                height: 19px;
+                border: solid 2px #fff;
+                background-color: transparent;
+                border-radius: 100%;
+                position: absolute;
+                top: -3px;
+                left: -3px;
+                transition: all 0.3s ease-in-out;
+            }
+            &:after {
+                width: 13px;
+                height: 13px;
+                background-color: #fff;
+                border-radius: 100%;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
