@@ -37,7 +37,7 @@
                 <div>
                     <div>
                         <a href="<?php echo $image['link']; ?>">
-                        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo $image['imagem']['sizes']['large']; ?>" alt="<?php echo $image['imagem']['alt']; ?>">
+                        <img src="<?php echo $image['imagem']['url']; ?>" data-src="<?php echo $image['imagem']['sizes']['large']; ?>" alt="<?php echo $image['imagem']['alt']; ?>">
                         <span>
                             <?php echo $image['imagem']['alt']; ?>
                         </span>

@@ -4,6 +4,10 @@
     .rodape-padding {
         padding: 20px 0;
 
+        @include media-breakpoint-down(sm) {
+            padding: 20px 43px;
+        }
+
         .mapa {
             filter: grayscale(1);
         }

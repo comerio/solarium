@@ -8,7 +8,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.9095913957053!2d-40.30240168512905!3d-20.304008986395417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817f30e34e451%3A0x90edf73ab38f56d3!2sSolarium%20M%C3%B3veis!5e0!3m2!1spt-BR!2sbr!4v1629322627832!5m2!1spt-BR!2sbr" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.9095913957053!2d-40.30240168512905!3d-20.304008986395417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817f30e34e451%3A0x90edf73ab38f56d3!2sSolarium%20M%C3%B3veis!5e0!3m2!1spt-BR!2sbr!4v1629322627832!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">

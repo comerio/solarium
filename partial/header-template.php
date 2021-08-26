@@ -57,11 +57,7 @@
                     </a>
             <?php
                 } }
-            ?>
-            <div class="search-mobile">
-                <img src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/buscar-mobile.png">
-                <h2>Buscar</h2>
-            </div>
+            ?> 
         </div>
     </div>
 </header>

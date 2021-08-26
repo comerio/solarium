@@ -63,8 +63,9 @@ header
             width: 108px;
 
             @include media-breakpoint-down(sm) {
-                margin-top: 30px;
-                width: 180px;
+                margin-top: 10px;
+                width: 105px;
+                margin-right: 60px;
             }
         }
         nav 
@@ -91,9 +92,6 @@ header
                     width: 10%;
                 }
                 &:nth-child(4) {
-                    width: 8%;
-                }
-                &:nth-child(5) {
                     width: 10%;
                     float: right;
                 }
@@ -145,7 +143,7 @@ header
     width: 90%;
     position: absolute;
     right: 0;
-    background-color: #008fd5;
+    background-color: black;
     padding-top: 30px;
     display: none;
     z-index: 999;
@@ -254,7 +252,7 @@ header
     }
   
     .menu-item {
-      background: #fff;
+      background: #000;
       display: block;
       height: 3px;
       margin: 0 0 10px;
@@ -263,6 +261,7 @@ header
     }
       
     &.open {
+        padding: 32px;
   
       .menu-item {
         margin: 0 0 5px;
