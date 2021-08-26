@@ -2,18 +2,21 @@
     <div class="container">
         <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="text-quem-somos">
-                    <div class="quem-somos-title">
+                <div class="text-produtos">
+                    <div class="produtos-title">
                         <h2>Produtos</h2>
                     </div>
-                    <div class="quem-somo-description">
-                        <span> Quisque sed lacus facilisis, rutrum velit in, imperdiet lorem. Aenean sapien enim, euismod quis aliquet a, consectetur eu ex. Sed hendrerit tellus mauris, eget tempor orci aliquet vitae. Vestibulum sed vestibulum nisi. Pellentesque semper ante non libero pulvinar viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vitae auctor libero, vitae volutpat sapien. In arcu tellus, vehicula ut pulvinar eu, euismod vel tellus. Integer vitae ex a velit scelerisque hendrerit mattis sit amet felis. Praesent tempus ligula ut eros eleifend, elementum imperdiet libero elementum.</span>
+                    <div class="produtos-description">
+                        <span>Buscamos nos reconhecer nas linhas, formas e materialidade de cada peça que escolhemos com a intenção de transmitir e valorizar nossa identidade regional.</span><br>
+                        <span>Prezamos também pelos clássicos, pois sua capacidade atemporal permite que sejam lidos por diversas óticas e ainda continuar os mesmos em sua essência.</span><br>
+                        <span>Fascínio pelas formas limpas e simples, assim cada detalhe pode dizer muito!</span><br>
+                        <span>Amamos estar, pensar, e descobrir juntos!</span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="img-quem-somos">
-                    <div style="background-color: black; width: 100%; height: 300px;"></div>
+            <div class="img-produtos">
+                    <img alt="img-produtos" src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/produtos.jpg">
                 </div>
             </div>
         </div>

@@ -1,7 +1,5 @@
 <footer>
-        <!-- footer do Eu Dou Conta: -->
         <?php include("partial/footer-template.php") ?> 
-        <!-- :footer do Eu Dou Conta -->
     </footer>
     <div class="filter-shadow"></div>
     <script>

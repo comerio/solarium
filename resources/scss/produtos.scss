@@ -1,4 +1,19 @@
 .produtos {
+    font-family: 'Roboto';
     padding: 40px 0;
     background-color: #fff;
+
+    .img-produtos {
+        img {
+            width: 100%;
+        }
+    }
+
+    .text-produtos {
+        .produtos-description {
+            span {
+                line-height: 30px;
+            }
+        }
+    }
 }

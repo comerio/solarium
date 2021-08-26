@@ -1,19 +1,63 @@
 .footer {
+    font-family: 'Roboto';
+    background: #F3F3F3;
     .rodape-padding {
         padding: 20px 0;
+
+        .mapa {
+            filter: grayscale(1);
+        }
+
+        .logo-rodape {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            img {
+                width: 55%;
+            }
+        }
     }
     .social-media {
+        margin-bottom: 30px;
         .icon-social-media {
-            display: flex;
+            line-height: 30px;
+
+            img {
+                width: 30px;
+                height: 100%;
+            }
 
             .fb-icon {
-                margin-right: 20px;
+                display: inline-block;
+                margin-right: 15px;
             }
 
             .ig-icon {
-                margin-right: 20px;
+                display: inline-block;
+            }
+            a {
+                color: #000;
+            }
+
+            .facebook-text {
+                color: #000;
+            }
+
+            .instagram-text {
+                color: #000;
             }
         }
+    }
+
+    .telefone-section {
+        margin-top: 30px;
+    }
+
+    .endereco-section {
+        margin-top: 30px;
     }
 
     .bottom-footer {
