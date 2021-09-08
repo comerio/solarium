@@ -6,6 +6,7 @@
     <?php include("partial/quem-somos.php") ?>
     <?php include("partial/produtos.php") ?>
     <!-- <?php include("partial/designers.php") ?> -->
+    <?php include("partial/orcamento.php") ?>
 </section>
 <?php
     get_footer(); 

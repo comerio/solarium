@@ -2,6 +2,12 @@
     font-family: 'Roboto';
     padding: 40px 0;
 
+    .quem-somos-title {
+        @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+        }
+    }
+
     .img-quem-somos {
         display: flex;
         justify-content: center;
@@ -13,6 +19,10 @@
     .text-quem-somos {
         .quem-somos-description {
             margin-top: 35px;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 20px;
+            }
             span {
                 line-height: 30px;
             }

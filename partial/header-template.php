@@ -6,7 +6,7 @@
                 <div class="col-lg-2 col-md-10 col-xs-10 col-sm-10 col-8 logo-wrapper d-sm-none">
                     <h1>
                         <a href="<?php echo home_url(); ?>">
-                            <img src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/logo.png" alt="Logo" class="logo">
+                            <img src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/logo-branca.png" alt="Logo" class="logo">
                         </a>
                     </h1>
                 </div>
@@ -14,7 +14,7 @@
                 <div class="col-lg-2 col-md-10 col-xs-10 col-sm-10 col-8 logo-wrapper d-none d-sm-block">
                     <h1>
                         <a href="<?php echo home_url(); ?>">
-                            <img src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/logo.png" alt="Logo" class="logo">
+                            <img src="<?php echo esc_url( get_stylesheet_directory_uri()); ?>/build/img/logo-branca.png" alt="Logo" class="logo">
                         </a>
                     </h1>
                 </div>

@@ -5,6 +5,10 @@
         &.slick-next {
             right: 100px;
 
+            @include media-breakpoint-down(sm) {
+                right: 30px;
+            }
+
             &:before {
                 content: "";
                 background: url("../img/seta.png") no-repeat center center;
@@ -16,6 +20,10 @@
 
         &.slick-prev {
             left: 100px;
+
+            @include media-breakpoint-down(sm) {
+                left: 30px;
+            }
 
             &:before {
                 content: "";
@@ -29,6 +37,10 @@
     }
     .slick-dots {
         bottom: 125px;
+
+        @include media-breakpoint-down(sm) {
+            bottom: 25px;
+        }
 
         button {
             &:before {

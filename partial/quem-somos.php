@@ -1,4 +1,4 @@
-<section id="quem-somos" class="quem-somos">
+<section id="nossa-historia" class="quem-somos">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -9,7 +9,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="text-quem-somos">
                     <div class="quem-somos-title">
-                        <h2>Quem Somos</h2>
+                        <h2>Nossa História</h2>
                     </div>
                     <div class="quem-somos-description">
                         <span>Irmãs, sócias e simplesmente apaixonadas por design! Nossa história nesse universo se iniciou há 23 anos, quando nasce a Solarium.</span><br>

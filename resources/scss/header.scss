@@ -3,7 +3,7 @@ header
     .menu-principal
     {
         height: 80px;
-        background-color: #FFF;
+        background-color: #000;
         overflow: hidden;
         /*position: fixed;*/
         top: 0;
@@ -14,30 +14,6 @@ header
             
         }
         
-        input[type="text"]{
-            position: absolute;
-            bottom: 26px;
-            right: 40px;
-            width: 18%;
-            border: 2px solid #3e8dce;
-            border-radius: 20px;
-            outline: none;
-            padding-left: 10px;
-
-        }
-
-        input[type="submit"]{
-            position: absolute;
-            top: 24px;
-            right: 5px;
-            width: 30px;
-            text-indent: -9999px;
-            height: 30px;
-            border: none;
-            background: url("../img/lupa-eu-dou-conta.svg") no-repeat center center;
-
-        }
-
         .screen-reader-text {
             display: none;
         }
@@ -86,12 +62,15 @@ header
                     width: 12%;
                 }
                 &:nth-child(2) {
-                    width: 10%;
+                    width: 14%;
                 }
                 &:nth-child(3) {
                     width: 10%;
                 }
                 &:nth-child(4) {
+                    width: 10%;
+                }
+                &:last-child {
                     width: 10%;
                     float: right;
                 }
@@ -105,7 +84,7 @@ header
                     height: 2px;
                     opacity: 0;
                     transition: all .2s;
-                    background-color: black;
+                    background-color: #fff;
                 }
 
                 &:hover {
@@ -115,7 +94,7 @@ header
                 }
                 h3
                 {
-                    color: #000;
+                    color: #fff;
                     font-size: 15px;
                     line-height: 16px;
                     font-weight: 400;
@@ -125,7 +104,7 @@ header
                     margin-bottom: 0px;
 
                     &:hover {
-                        color: #000;
+                        color: #fff;
                     }
 
                 }
@@ -252,7 +231,7 @@ header
     }
   
     .menu-item {
-      background: #000;
+      background: #fff;
       display: block;
       height: 3px;
       margin: 0 0 10px;
